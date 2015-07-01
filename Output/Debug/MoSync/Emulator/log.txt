@@ -1,0 +1,58 @@
+Hello World!
+argc: 13
+1:-program
+3:-resource
+5:-resolution
+8:-fd
+Emulator connected.
+10:-id
+12:-gdb
+fmt->BitsPerPixel: 32
+InitVM .. 
+LoadVM
+maxCustomEventSize: 0x28
+Head.DataSize: 0x100000
+Head.StackSize: 0x20000
+Head.HeapSize: 0x80000
+Head.EntryPoint: 0xcd332
+Head.CodeLen: 0x1158d4
+CODE_SEGMENT_SIZE: 0x200000
+Head.DataLen: 0x18074
+Head.DataSize: 0x100000
+DATA_SEGMENT_SIZE: 0x100000
+Head.IntLen: 0x136f
+Type 2, size 358
+Type 2, size 44917
+Type 2, size 5013
+Type 2, size 9692
+Type 2, size 358
+Type 4, size 530
+ResLoad complete
+IDL version match!
+BFE in /Users/mosyncbuilder/jenkinsSlave2/workspace/Build_Libs_Tools_Examples_MoRE_On_Mac/mosync-trunk/runtimes/cpp/base/ResourceArray.cpp @ line 437
+ErrorExit 40001
+MoSync Panic 40001
+
+"Invalid resource type"
+
+The panic occurred in the syscall maDrawImage.
+DumpCallStackEx:
+reportCallStack
+0
+IP: 0x4914
+Call stack: 7 frames
+0: 0xcd35f
+1: 0x45
+2: 0x356e
+3: 0x3977
+4: 0x3bdd
+5: 0x7881
+6: 0x4916
+Exit @ IP 0x4914  SP 0xfff44
+MESSAGE exit
+InstCount: 48256
+IP: 0xCD332
+Profile dumped.
+level: 7
+maxLevel: 19
+nodes: 831

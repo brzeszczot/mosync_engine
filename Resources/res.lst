@@ -1,0 +1,18 @@
+// RES_FIRST musi byc pierwszy na liscie
+.res RES_FIRST
+.image "transp.png"
+/////////////////////
+.res RES_OBJECT
+.image "object.png"
+.res RES_FISH
+.image "fish.png"
+.res RES_BG
+.image "bg.png"
+// RES_LAST musi byc ostatni na liscie
+.res RES_LAST
+.image "transp.png"
+/////////////////////
+
+.res RES_PARAMS
+.bin
+.include "res_params.txt"
